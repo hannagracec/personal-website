@@ -102,6 +102,12 @@ header {
     justify-content: space-evenly;
 }
 
+@media (max-width: 900px) {
+    .info-section {
+      flex-direction: column;
+    }
+  }
+
 .blue-box {
     background-color: #172674;
     height: 500;
@@ -111,6 +117,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 900px) {
+    .blue-box{
+      width: 100%;
+    }
+  }
 
 .ponyo {
     width: 500px;
@@ -141,6 +153,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 900px) {
+    .about-me {
+      margin: 50 0;
+    }
+  }
 
 .about-me-title {
     font-family: "Kapakana";
@@ -190,7 +208,20 @@ header {
     border: 3px solid;
     border-radius: 40px;
     text-align: left;
-    margin: 70 40 100;
+    margin: 0 20;
+}
+
+.row-1-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50;
+    margin-bottom: 30;
+}
+
+.row-2-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50;
 }
 
 .project-name-container {
@@ -256,6 +287,12 @@ header {
     margin: 0;
 }
 
+@media (max-width: 900px) {
+    .contact {
+      flex-direction: column;
+    }
+  }
+
 .contact-title {
     font-family: "Kapakana";
     font-size: 80;
@@ -291,12 +328,24 @@ header {
     padding: 200 200;
 }
 
+@media (max-width: 900px) {
+    .contact-text {
+      padding:90 0;
+    }
+  }
+
 .contact-form {
     background-color: #172674;
     display: flex;
     justify-content: space-evenly;
     padding: 110px 200px;
 }
+
+@media (max-width: 900px) {
+    .contact-form {
+      width: 100%;
+    }
+  }
 
 .contact-left {
     display: flex;
